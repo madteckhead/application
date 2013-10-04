@@ -72,6 +72,7 @@ more documentation.
   not exist
 - `owner`: the user that shall own the target path
 - `group`: the group that shall own the target path
+- `keep_releases`: count of keep releases
 - `strategy`: the underlying LWRP that will be used to perform the
   deployment. The default is `:deploy_revision`, and it should never
   be necessary to change it
